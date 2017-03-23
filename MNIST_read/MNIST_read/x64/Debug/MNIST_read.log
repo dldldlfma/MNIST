@@ -1,0 +1,39 @@
+﻿빌드 시작: 2017-03-23 오전 12:44:49
+     1>2 노드의 "C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\MNIST_read\MNIST_read.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet "소스.cpp"
+         소스.cpp
+     1>C:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/imgproc.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\opencv\build\include\opencv2/video/tracking.hpp(532): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\x64\Debug\MNIST_read.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_world320.lib opencv_world320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\x64\Debug\MNIST_read.pdb" /SUBSYSTEM:CONSOLE /HEAP:"200000000" /STACK:"200000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\x64\Debug\MNIST_read.lib" /MACHINE:X64 /MP "x64\Debug\소스.obj"
+     1>LINK : warning LNK4044: '/MP' 옵션을 인식할 수 없습니다. 무시됩니다.
+         MNIST_read.vcxproj -> C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\x64\Debug\MNIST_read.exe
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(433): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(466): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(1943): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(2387): warning C6011: NULL 포인터 'm'을(를) 역참조하고 있습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 2384을(를) 참조하십시오.
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(2401): warning C6011: NULL 포인터 'm'을(를) 역참조하고 있습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 2398을(를) 참조하십시오.
+     1>c:\opencv\build\include\opencv2\core\utility.hpp(463): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\cuda.inl.hpp(301): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\cuda.inl.hpp(482): warning C6297: 산술 연산 오버플로가 발생했습니다. 32비트 값이 이동된 후 64비트 값으로 캐스팅되었습니다. 결과가 예상과 다를 수도 있습니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(1050): warning C6385: 'this->val'에서 잘못된 데이터를 읽고 있습니다.  읽기 가능한 크기는 '12'바이트인데 실제로는 'i'바이트만 읽을 수 있습니다.
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(1656): warning C6011: NULL 포인터 'data+step.p[0]*i0'을(를) 역참조하고 있습니다. 
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(958): warning C6011: NULL 포인터 'data+step.p[0]*i0'을(를) 역참조하고 있습니다. 
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(513): warning C6294: for 루프가 잘못 정의되었습니다. 초기 조건이 충족되지 않으므로 루프 본문이 실행되지 않습니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(513): warning C6201: 스택에 할당되었을 가능성이 있는 버퍼 'val'에 대해 인덱스 '3'이(가) 유효한 인덱스 범위 '0' - '2'을(를) 벗어납니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(505): warning C6294: for 루프가 잘못 정의되었습니다. 초기 조건이 충족되지 않으므로 루프 본문이 실행되지 않습니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(505): warning C6201: 스택에 할당되었을 가능성이 있는 버퍼 'val'에 대해 인덱스 '2'이(가) 유효한 인덱스 범위 '0' - '1'을(를) 벗어납니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(521): warning C6294: for 루프가 잘못 정의되었습니다. 초기 조건이 충족되지 않으므로 루프 본문이 실행되지 않습니다.
+     1>c:\opencv\build\include\opencv2\core\matx.hpp(521): warning C6201: 스택에 할당되었을 가능성이 있는 버퍼 'val'에 대해 인덱스 '4'이(가) 유효한 인덱스 범위 '0' - '3'을(를) 벗어납니다.
+     1>"C:\Users\dldld\OneDrive\Documents\Visual Studio 2013\Projects\MNIST_read\MNIST_read\MNIST_read.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.79
