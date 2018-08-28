@@ -96,7 +96,7 @@ int data_read()
 	int row, colm;          //행렬
 	int num_of_data;		//데이터 개수
  
-	FILE * answer = fopen("train-labels.idx1-ubyte", "rb"); // "rt와 rb의 차이?"
+	FILE * answer = fopen("train-labels.idx1-ubyte", "rb"); // "rt와 rb의 차이? read binary & read text"
  
 	if (answer == NULL)
 	{
