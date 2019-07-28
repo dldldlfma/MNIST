@@ -65,7 +65,7 @@ unsigned char answer_value[60000];
 int answer_success = 0;
  
 //---------데이터를 읽어 오는 부분----------7
-int Data_extract(FILE * data_pass)
+int Data_extract(FILE * data_path)
 {
 	/*
 	MNIST 데이터가 처음 시작 16byte에 데이터에 관한 정보가 있어요
@@ -79,11 +79,11 @@ int Data_extract(FILE * data_pass)
 	int ch;
 	int byte_value = 0;
  
-	ch = fgetc(data_pass);
-	ch = fgetc(data_pass);
-	ch = fgetc(data_pass);
+	ch = fgetc(data_path);
+	ch = fgetc(data_path);
+	ch = fgetc(data_path);
 	byte_value = byte_value + (ch << 8);
-	ch = fgetc(data_pass);
+	ch = fgetc(data_path);
 	byte_value = byte_value + (ch);
  
 	printf("%d  ", byte_value);
